@@ -25,7 +25,8 @@ VNDK_SP_LIBRARIES := \
     libpng \
     libunwind \
     libutils \
-    libz
+    libz \
+    libutilscallstack
 
 #-------------------------------------------------------------------------------
 # VNDK Modules
