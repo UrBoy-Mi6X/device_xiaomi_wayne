@@ -239,6 +239,9 @@ BOARD_HAS_LARGE_FILESYSTEM := true
 TARGET_RIL_VARIANT := caf
 PROTOBUF_SUPPORTED := true
 
+# Security patch level
+VENDOR_SECURITY_PATCH := 2018-10-01
+
 # SELinux
 include device/qcom/sepolicy/sepolicy.mk
 BOARD_SEPOLICY_DIRS += \
