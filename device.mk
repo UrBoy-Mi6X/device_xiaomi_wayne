@@ -347,8 +347,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    power.sdm660 \
-    android.hardware.power@1.1-service-qti \
+    android.hardware.power@1.1-service-qti
 
 # Low power Whitelist
 PRODUCT_COPY_FILES += \
