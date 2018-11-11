@@ -210,13 +210,11 @@ PRODUCT_PACKAGES += \
 
 # GPS / Location
 PRODUCT_PACKAGES += \
-    android.hardware.gnss@1.0-impl-qti \
-    android.hardware.gnss@1.0-service-qti \
+    android.hardware.gnss@1.1-impl-qti \
+    android.hardware.gnss@1.1-service-qti \
     libgnss \
-    libgps.utils \
-    liblocation_api \
-    libloc_core \
-    libloc_pla \
+    libgnsspps \
+    libsensorndkbridge \
     libvehiclenetwork-native
 
 PRODUCT_COPY_FILES += \
